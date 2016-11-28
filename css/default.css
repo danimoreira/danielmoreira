@@ -1,0 +1,224 @@
+@font-face {
+	font-family: 'Open-Sans';
+	src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+body {
+	position: relative;
+}
+
+/******************* Header *******************/
+header img {
+	margin-top: -6px;
+}
+
+.navbar {
+	background-color: #22313F;
+}
+
+header .navbar-text {
+	text-align: center;
+	font-size: 20px;
+	margin: 10px 0 0 0;
+	float: right;
+}
+
+header .navbar-text a {
+	margin: 0 10px 0 10px;
+}
+
+header .navbar-nav {
+	margin-left: 90px;
+}
+
+/******************* Index-Serviços *******************/
+#servicos {
+	position: relative;
+	height: 450px;
+	width: 100%;
+	margin-top: 50px;
+	color: #FFF;
+	background-image: url("../img/network-connection-concept_1134-46.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+}
+
+#servicos li {
+	color: #336E7B;
+	font-weight: bold;
+}
+
+#servicos h1 {
+	color: #F89406;
+	text-align: right;
+	position: relative;
+	margin-right: 10px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/******************* Index-MktDigital *******************/
+
+#mktdigital {
+	position: relative;
+	height: 400px;
+	width: 100%;
+	background-image: url("../img/marketing-digital.jpg");
+	background-repeat: no-repeat;
+	border-top: 3px solid #FFF;
+	background-size: 100% 100%;	
+}
+
+#mktdigital h1 {
+	color: #F89406;
+	text-align: right;
+	position: relative;
+	margin-right: 10px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.fundo-titulo {
+	background-color: #FFF;
+	opacity: .75;
+}
+
+#mktdigital ul {
+	list-style-type: none;
+}
+
+#mktdigital li {
+	font-size: 32px;
+	color: #913D88;
+}
+
+/******************* Index-QuemSou *******************/
+#quemsou {
+	position: relative;
+	background-color: #22A7F0;
+	height: 500px;
+	width: 100%;
+	border-top: 3px solid #FFF;
+}
+
+#quemsou .img-perfil {
+	min-width: 100%;
+	min-height: 350px;
+}
+
+#quemsou img {
+	max-width: 100%;
+	min-height: 350px;
+	object-fit: cover;
+}
+
+#quemsou h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#quemsou .text-profissional {
+	color: #FFF;
+}
+
+#quemsou .col-sm-3 {
+	height: 100%;
+}
+
+#quemsou .redesocial {
+	color: #FFF;
+	font-size: 36px;
+	text-align: center;
+}
+
+#quemsou a {
+	color: #FFF;
+}
+
+/******************* Index-Tecnologias *******************/
+#tecnologias {
+	position: relative;
+	background-color: #FFF;
+	height: 450px;
+	width: 100%;
+	text-align: center;
+}
+
+#tecnologias img {
+	height: 150px;
+	width: 150px;
+	margin: 15px;
+}
+
+#tecnologias h1 {
+	text-align: right;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/******************* Index-HPortfolio *******************/
+#hportfolio {
+	position: relative;
+	background-color: #34495e;
+	height: 3150px;
+	width: 100%;
+}
+
+#hportfolio h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#hportfolio h3 {
+	color: #FFF;
+	text-align: left;
+	text-decoration: underline;
+}
+
+#hportfolio p {
+	color: #E9D460;
+}
+
+#hportfolio h5 {
+	color: #FFF;
+	text-align: left;
+	font-weight: bold;
+}
+
+#hportfolio img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-top: 10px solid #34495E;
+}
+
+
+/******************* Footer *******************/
+footer {
+	position: relative;
+	background-color: #22313F;
+	height: 250px;
+	width: 100%;
+	border-top: 3px solid #FFF;
+}
+
+footer h1 {
+	font-size: 40px;
+	font-weight: bold;
+	color: #336E7B;
+}
+
+footer .icon-contato {
+	font-size: 100px;
+	margin: 60px;
+}
+
+footer .contatos {
+	text-align: center;
+}
+
+footer a {
+	color: #336E7B;
+}
